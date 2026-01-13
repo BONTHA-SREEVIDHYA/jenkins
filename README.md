@@ -19,4 +19,4 @@ sudo systemctl start jenkins
 sudo systemctl status jenkins
 
 Can Access the Jenkins UI at <public_ip_ec2>:8080
-You can fetch the initialAdminPassword at **sudo cat /var/lib/jenkins/secrets/initialAdminPassword** 
+You can fetch the initialAdminPassword at **sudo cat /var/lib/jenkins/secrets/initialAdminPassword**  
