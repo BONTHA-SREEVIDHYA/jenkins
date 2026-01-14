@@ -88,5 +88,9 @@ pipeline {
     }
 }
 ```
+Authorization -- Matrix Based 
+Groups are not there by default--- need to use 3pp's like LDAP
+<img width="1734" height="703" alt="image" src="https://github.com/user-attachments/assets/31de7713-5896-49ee-b691-9caf65eff7a1" />
+
 
 
