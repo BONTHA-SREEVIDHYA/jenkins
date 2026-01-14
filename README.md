@@ -30,6 +30,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 parameters:
 
 Freestyle: This project is parameterized 
+
 Pipeline:
 
 ```groovy
