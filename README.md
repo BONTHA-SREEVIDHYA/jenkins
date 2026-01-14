@@ -26,3 +26,33 @@ You can fetch the initialAdminPassword at
 ```bash
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword 
 ```
+
+parameters:
+
+Freestyle: This project is parameterized 
+Pipeline:
+
+```groovy
+
+pipeline{
+  agent any
+  parameters {
+    choice(name: 'Branch_name', choices:['main','dev','feature1'])
+    string(name: 'STRING_PARAM', defaultValue: 'default value', description: 'Enter a string value') 
+  }
+  stages{
+    stage('Git Checkout') {
+      steps {
+        git branch: "${params.Branch_name}",
+        url: 'https://github.com/jaiswaladi246/FullStack-Blog.git'
+      }
+    }
+    stage('Hello'){
+      steps {
+        echo "Hello World"
+      }
+    }
+  }
+```
+
+
