@@ -110,6 +110,6 @@ we need to set a github webhook trigger for it
    <img width="1627" height="824" alt="image" src="https://github.com/user-attachments/assets/5d5acfdb-2421-4434-ab41-d5f7ebcd01a9" />
 
 
-
+for multibranch --- multibranch scan webhook trigger
 
 
