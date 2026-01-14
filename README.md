@@ -56,7 +56,7 @@ pipeline{
   }
 ```
 
-Sample pipeline:
+Sample Jenkinsfile:
 
 ```groovy
 pipeline {
