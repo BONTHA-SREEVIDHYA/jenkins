@@ -120,5 +120,12 @@ upstream and downstream job
 if freestyle project -- post build actions -- build other projects
 <img width="466" height="490" alt="image" src="https://github.com/user-attachments/assets/aa8d75b0-3f94-469a-8a8b-7f2dd0ccf88a" />
 
+===================================================================================
+
+Deploying application to tomcat webserver
+
+tomcat is opensource webserver
+(Can be used for demo to clients) 
+Java, Java Servlet pages can be deployed using tomcat
 
 
