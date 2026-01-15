@@ -112,4 +112,13 @@ we need to set a github webhook trigger for it
 
 for multibranch --- multibranch scan webhook trigger
 
+=====================================================================================
+upstream and downstream job
+<img width="976" height="79" alt="image" src="https://github.com/user-attachments/assets/590f60de-b46e-4d6e-9eca-63590cc1ddc9" />
+<img width="872" height="585" alt="image" src="https://github.com/user-attachments/assets/374aaee9-ce83-4f0c-b4ac-ae729cec0be6" />
+
+if freestyle project -- post build actions -- build other projects
+<img width="466" height="490" alt="image" src="https://github.com/user-attachments/assets/aa8d75b0-3f94-469a-8a8b-7f2dd0ccf88a" />
+
+
 
