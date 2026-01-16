@@ -236,12 +236,26 @@ Scenario 4: Parallel Execution
 
 Scenario 5: Efficient memory management
 Publish the artifacts to nexus & clean the workspace( for big jobs) 
+<img width="517" height="160" alt="image" src="https://github.com/user-attachments/assets/167b76f8-7fb1-4763-8d93-cfc4379fda5c" />
 
 Scenario 6 : Timeout stages
 If a stage is taking more than expected time , job should fail 
 <img width="590" height="128" alt="image" src="https://github.com/user-attachments/assets/51dd8e37-710f-442a-9ccf-d9ec43720aa7" />
 
-<img width="517" height="160" alt="image" src="https://github.com/user-attachments/assets/167b76f8-7fb1-4763-8d93-cfc4379fda5c" />
+========================================================================
+Outlook Mail Notifications:
+
+Open 587 SMTP Port in Security Group 
+Make Sure POP & IMAP are on in outlook mail settings
+Create app password ( which can be used by jenkins , also our mail password will not be exposed )
+in Jenkins -- plugins -- email extension plugin, stage view 
+In Jenkins Settings -- System -- set outlook 
+<img width="667" height="246" alt="image" src="https://github.com/user-attachments/assets/76ead7ee-18ef-434a-8239-5090db75515b" />
+<img width="1043" height="493" alt="image" src="https://github.com/user-attachments/assets/c9cc917f-3183-433c-bb06-1d28f7db4d48" />
+<img width="1018" height="646" alt="image" src="https://github.com/user-attachments/assets/327abef8-fe18-4535-bad4-057b982cdff1" />
+<img width="1111" height="511" alt="image" src="https://github.com/user-attachments/assets/871c1a6e-d9d9-401b-9f17-8018fa2a2ec2" />
+
+
 
 
 
