@@ -200,6 +200,22 @@ Build the pipeline
 <img width="1887" height="1018" alt="image" src="https://github.com/user-attachments/assets/c58defc5-3888-4d5a-8acb-b3f569deb529" />
 
 
+Jenkins Troubleshooting:
+
+Status Codes:
+128 -- if we don't pass credentials for git checkout 
+403 -- Unauthorized ( passed the credentials but incorrect ) || check the credentials configured 
+137 -- not enough memory for pipeline 
+127 -- not found ( command not found/ tool not found )
+ex: mvn package ( if you don't install maven & run - maven not found -- go to tools section & verify the configuration of tool )
+
+Sonar not available ( check if sonar server is available or not ) 
+ 500 -- Internal Server Error ( nexus / Sonar -- check if nexus is up or not ) // restart the server , check the nexus pod logs 
+
+Sun Security Java Error -- check the jdk version compatibility 
+
+ 
+
 
 
 
