@@ -199,6 +199,7 @@ Build the pipeline
 <img width="1454" height="636" alt="image" src="https://github.com/user-attachments/assets/9249ed9e-ab7c-46f4-848a-1a6c656335ea" />
 <img width="1887" height="1018" alt="image" src="https://github.com/user-attachments/assets/c58defc5-3888-4d5a-8acb-b3f569deb529" />
 
+===========================================================================
 
 Jenkins Troubleshooting:
 
@@ -214,7 +215,36 @@ Sonar not available ( check if sonar server is available or not )
 
 Sun Security Java Error -- check the jdk version compatibility 
 
- 
+===========================================================================
+
+ Scenario Based Implementation:
+
+ Scenario 1 : Implement a stage only if there are changes in a file 
+ <img width="409" height="206" alt="image" src="https://github.com/user-attachments/assets/a54cd4b7-41be-47eb-a3ed-0a73f9155d9d" />
+ Test is executed only if there are changes in test.txt file 
+
+ Scenario 2: execution of commands in specific folder 
+ <img width="300" height="136" alt="image" src="https://github.com/user-attachments/assets/81886b5c-f3bd-4642-9736-3ffaa90189ac" />
+
+Scenario 3: Multi Environment Deployment 
+<img width="909" height="634" alt="image" src="https://github.com/user-attachments/assets/2e436218-fdb0-44b6-9b7c-37cc97eea734" />
+<img width="512" height="314" alt="image" src="https://github.com/user-attachments/assets/efbeb326-c858-4b4b-bda6-786791f6dd20" />
+Should be enclosed in script 
+
+Scenario 4: Parallel Execution 
+<img width="459" height="422" alt="image" src="https://github.com/user-attachments/assets/fb379d5d-ac4d-41a3-92ab-5b3ec6d834e3" />
+
+Scenario 5: Efficient memory management
+Publish the artifacts to nexus & clean the workspace( for big jobs) 
+
+Scenario 6 : Timeout stages
+If a stage is taking more than expected time , job should fail 
+<img width="590" height="128" alt="image" src="https://github.com/user-attachments/assets/51dd8e37-710f-442a-9ccf-d9ec43720aa7" />
+
+<img width="517" height="160" alt="image" src="https://github.com/user-attachments/assets/167b76f8-7fb1-4763-8d93-cfc4379fda5c" />
+
+
+
 
 
 
