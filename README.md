@@ -11,17 +11,17 @@ echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]" \
   https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
   /etc/apt/sources.list.d/jenkins.list > /dev/null
 ```
-sudo apt update
-sudo apt install jenkins
-
+```bash
 chmod +x Jenkins.sh 
 ./Jenkins.sh
-
+sudo apt update
+sudo apt install jenkins
 sudo systemctl enable jenkins
 sudo systemctl start jenkins
 sudo systemctl status jenkins
+```
 
-Can Access the Jenkins UI at <public_ip_ec2>:8080
+Can Access the Jenkins UI at <public_ip_ec2>:8080  
 You can fetch the initialAdminPassword at 
 ```bash
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword 
